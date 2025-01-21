@@ -23,7 +23,7 @@ VALUES
 ('Javascript', 'Intermédiaire', 'images/javascript_original_logo_icon_146455.png'),
 ('Alpine.js', 'Intermédiaire', 'images/Alpine.js.svg'),
 ('Vue.js', 'Apprentissage', 'images/Vue.js.svg'),
-('Thres.js', 'Intermédiaire', 'images/Three.js.svg'),
+('Three.js', 'Intermédiaire', 'images/Three.js.svg'),
 ('Symfony', 'Intermédiaire', 'images/Symfony.svg'),
 ('C', 'Intermédiaire', 'images/695px-C_Programming_Language.svg.png'),
 ('Java', 'Intermédiaire', 'images/java.svg'),

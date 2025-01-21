@@ -26,7 +26,7 @@
 
     </nav>
     <!-- Main A propos ----------------- -->
-    <article class="about">
+    <section class="about">
         <h2>A propos
             <hr>
         </h2>
@@ -45,14 +45,16 @@
                     Web.</p>
             </div>
         </div>
-    </article>
+    </section>
     <p></p>
 
     <!-- Section Compétences -->
     <section class="skills-section">
 
-        <hr>
-        <h2>Compétences</h2>
+        <section class="hr-h2-home margin-center">
+            <hr>
+            <h2>Compétences</h2>
+        </section>
 
         <div class="skills-btn">
             <button class="btn-tech-out" id="btn-technologies">
@@ -91,5 +93,55 @@
         </section>
 
     </section>
+    <!-- Section Travaux -->
+    <section class="project-section ">
+        <section class="hr-h2-home margin-center">
+            <hr>
+            <h2>Projets</h2>
+        </section>
+        <section class="project-list">
+            <article class="project-article">
+                <img src="images/cardmemory.jpg" alt="a">
+                <section class="project-article-text">
+                    <h2>Focus sur Mel</h2>
+                    <p>Faites évoluer les choses avec Mel, Reflet de lol. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est, mollitia ut. A sit magnam optio!</p>
+                </section>
+            </article>
+            
+            <article class="project-article">
+                <img src="images/cardmemory.jpg" alt="a">
+                <section class="project-article-text">
+                    <h2>Focus sur Mel</h2>
+                    <p>Faites évoluer les choses avec Mel, Reflet de lol. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est, mollitia ut. A sit magnam optio!</p>
+                </section>
+            </article>
 
+            <article class="project-article">
+                <img src="images/cardmemory.jpg" alt="a">
+                <section class="project-article-text">
+                    <h2>Focus sur Mel</h2>
+                    <p>Faites évoluer les choses avec Mel, Reflet de lol. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est, mollitia ut. A sit magnam optio!</p>
+                </section>
+            </article>
+
+            <article class="project-article">
+                <img src="images/cardmemory.jpg" alt="a">
+                <section class="project-article-text">
+                    <h2>Focus sur Mel</h2>
+                    <p>Faites évoluer les choses avec Mel, Reflet de lol. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est, mollitia ut. A sit magnam optio!</p>
+                </section>
+            </article>
+
+            
+            <article class="project-article">
+                <img src="images/cardmemory.jpg" alt="a">
+                <section class="project-article-text">
+                    <h2>Focus sur Mel</h2>
+                    <p>Faites évoluer les choses avec Mel, Reflet de lol. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est, mollitia ut. A sit magnam optio!</p>
+                </section>
+            </article>
+
+            
+        </section>
+    </section>
 </main>

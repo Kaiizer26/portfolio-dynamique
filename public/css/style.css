@@ -16,6 +16,9 @@
     scroll-behavior: smooth;
 }
 body{
+    /* width: 100%; */
+    margin: 0;
+    padding: 0;
     font-family: "Poppins", sans-serif;
     overflow-x: hidden;
     font-size: 16px;
@@ -214,14 +217,14 @@ main.home-main .about{
     /* height: 5%;       */
     border-radius: 60px;
 }
-main.home-main article h2{
+main.home-main section.about h2{
     margin-top: 2em;
     margin-left: 2em;
     height: 0px;
     width: 100%;
 }
 
-main.home-main article .about-container{
+main.home-main section.about .about-container{
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -229,7 +232,7 @@ main.home-main article .about-container{
     font-size: 20px;
 }
 
-main.home-main article hr{
+main.home-main section.about hr{
     border-top: 3px solid #fde68a;
     position: relative;
     bottom: 12px;
@@ -238,6 +241,8 @@ main.home-main article hr{
     
     
 }
+
+
 
 main.home-main .about img{
     width: 360px;
@@ -248,14 +253,14 @@ main.home-main .about img{
     
 }
 
-main.home-main article .about-right{
+main.home-main section .about-right{
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     max-width: 750px;
 }
 
-main.home-main article .about-right p{
+main.home-main section .about-right p{
     margin: 1em 0;
     line-height: 28px;
 }
@@ -269,25 +274,15 @@ main.home-main article .about-right p{
     flex-direction: column;
     background-color: #1F1F1F;
     width: 100%;
-    height: 70vh;
-    
-
+    margin: 2em 0;
 }
 
 .skills-section hr{
     border: none;
     border-top: 4px solid #fde68a;
     position: relative;
-    top:14px;
-    left: 210px;
+    top: .7rem;
     width: 12%;
-
-}
-
-.skills-section h2{
-    position: absolute;
-    left: calc(25% + 25px);
-    
 }
 
 .skills-section .skills-btn{
@@ -314,8 +309,6 @@ main.home-main article .about-right p{
   opacity: 1;
 }
 
-
-
 .skills-section .skills-btn button:hover h3{
     opacity: 1 !important;
     color: white !important;
@@ -330,11 +323,11 @@ main.home-main article .about-right p{
     opacity: 0.4;
 }
 
-.skills-section section{
-    display: flex;
-    flex-wrap: wrap;
+.skills-section section.skills-list{
+    display: grid;
+    margin: 0 5em;
+    grid-template-columns: repeat(4, 1fr);
     margin-top: 3em;
-    margin-left: 10em;
 }
 .skills-section section article{
     display: flex;
@@ -342,14 +335,11 @@ main.home-main article .about-right p{
     box-shadow: 2px 4px 12px #050505;
     border-radius: 10px;
     border: solid #fde68a;
-    width: 18%;
     height: 100px ;
     justify-content: space-evenly;
     align-items: center;
     margin-left: 3em;
     margin-top: 3em;
-    /* test */
-    position: relative;
 }
 
 .skills-section section article.outils{
@@ -374,15 +364,13 @@ main.home-main article .about-right p{
 
 .skills-section article:hover img{
     transform: scale(1.2);
-    
 }
 
 .skills-section article h3{
     transition: transform 0.5s;
 }
 .skills-section article:hover h3{
-    transform: translateY(-20px);
-    
+    transform: translateY(-20px);   
 }
 
 .skills-section article p{
@@ -390,14 +378,65 @@ main.home-main article .about-right p{
 }
 .skills-section article:hover p{
     color: #ffdb68;
-    
     font-size: 16px;
 }
 
 
 
 /* Fin Section --------------------- */
+/* Margin left center HR H2 */
+.margin-center{
+    display: flex;
+    margin-left: 10em;
+    margin-top: 2em;
+}
+.margin-center hr{
+    margin-right: 1em;
+}
 
+/* Section projets */
+.project-section{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.project-section hr{
+    border: none;
+    border-top: 4px solid #fde68a;
+    position: relative;
+    top: .7rem;
+    width: 12%;
+
+}
+.project-section .project-list{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2em;
+    margin: 3em 2em;
+}
+.project-section .project-list .project-article{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 3em;
+}
+
+.project-section .project-list .project-article img{
+    width: 330px;
+    height: 190px;
+    border-radius: 10px;
+}
+.project-section .project-list .project-article h2{
+    margin: 1em 0;
+    font-weight: bold;
+}
+
+.project-section .project-list .project-article p{
+    width: 90%;
+    color: #818181;
+}
+.project-section .project-list .project-article .project-article-text{
+    margin-left: 1em;
+}
 /* Footer --------------------- */
 footer{
     display: flex;
