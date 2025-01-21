@@ -49,7 +49,7 @@
     <p></p>
 
     <!-- Section Compétences -->
-    <section class="skills-section">
+    <section class="skills-section margin-top-bottom-section">
 
         <section class="hr-h2-home margin-center">
             <hr>
@@ -94,53 +94,57 @@
 
     </section>
     <!-- Section Travaux -->
-    <section class="project-section ">
+    <section class="project-section margin-top-bottom-section">
         <section class="hr-h2-home margin-center">
             <hr>
             <h2>Projets</h2>
         </section>
         <section class="project-list">
             <article class="project-article">
-                <img src="images/cardmemory.jpg" alt="a">
+                <img src="images/cardmemory.jpg" alt="image du projet" class="project-image">
+                <img src="images/php.svg" alt="tel" class="project-language">
+                <h3 class="project-subject">SITE E-COMMERCE</h3>
                 <section class="project-article-text">
                     <h2>Focus sur Mel</h2>
                     <p>Faites évoluer les choses avec Mel, Reflet de lol. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est, mollitia ut. A sit magnam optio!</p>
                 </section>
             </article>
             
-            <article class="project-article">
-                <img src="images/cardmemory.jpg" alt="a">
-                <section class="project-article-text">
-                    <h2>Focus sur Mel</h2>
-                    <p>Faites évoluer les choses avec Mel, Reflet de lol. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est, mollitia ut. A sit magnam optio!</p>
-                </section>
-            </article>
-
-            <article class="project-article">
-                <img src="images/cardmemory.jpg" alt="a">
-                <section class="project-article-text">
-                    <h2>Focus sur Mel</h2>
-                    <p>Faites évoluer les choses avec Mel, Reflet de lol. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est, mollitia ut. A sit magnam optio!</p>
-                </section>
-            </article>
-
-            <article class="project-article">
-                <img src="images/cardmemory.jpg" alt="a">
-                <section class="project-article-text">
-                    <h2>Focus sur Mel</h2>
-                    <p>Faites évoluer les choses avec Mel, Reflet de lol. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est, mollitia ut. A sit magnam optio!</p>
-                </section>
-            </article>
-
             
             <article class="project-article">
-                <img src="images/cardmemory.jpg" alt="a">
+                <img src="images/cardmemory.jpg" alt="image du projet" class="project-image">
+                <img src="images/three.js.svg" alt="tel" class="project-language">
+                <h3 class="project-subject">SITE E-COMMERCE</h3>
                 <section class="project-article-text">
                     <h2>Focus sur Mel</h2>
                     <p>Faites évoluer les choses avec Mel, Reflet de lol. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est, mollitia ut. A sit magnam optio!</p>
                 </section>
             </article>
-
+            
+            
+            <article class="project-article">
+                <img src="images/cardmemory.jpg" alt="image du projet" class="project-image">
+                <img src="images/php.svg" alt="tel" class="project-language">
+                <h3 class="project-subject">SITE E-COMMERCE</h3>
+                <section class="project-article-text">
+                    <h2>Focus sur Mel</h2>
+                    <p>Faites évoluer les choses avec Mel, Reflet de lol. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est, mollitia ut. A sit magnam optio!</p>
+                </section>
+            </article>
+            
+            
+            <article class="project-article">
+                <img src="images/cardmemory.jpg" alt="image du projet" class="project-image">
+                <img src="images/php.svg" alt="tel" class="project-language">
+                <h3 class="project-subject">SITE E-COMMERCE</h3>
+                <section class="project-article-text">
+                    <h2>Focus sur Mel</h2>
+                    <p>Faites évoluer les choses avec Mel, Reflet de lol. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est, mollitia ut. A sit magnam optio!</p>
+                </section>
+            </article>
+            
+            
+            
             
         </section>
     </section>

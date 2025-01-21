@@ -265,6 +265,12 @@ main.home-main section .about-right p{
     line-height: 28px;
 }
 
+main.home-main .margin-top-bottom-section{
+    /* border: solid green; */
+    margin-top: 5em ;
+    margin-bottom: 5em;
+}
+
 
 /* Fin Main--------------------- */
 
@@ -418,12 +424,35 @@ main.home-main section .about-right p{
     display: flex;
     flex-direction: column;
     margin-bottom: 3em;
+    position: relative;
 }
 
-.project-section .project-list .project-article img{
+.project-section .project-list .project-article img.project-image{
     width: 330px;
     height: 190px;
     border-radius: 10px;
+}
+.project-section .project-list .project-article img.project-language{
+    position: absolute;
+    /* z-index: 100; */
+    left: .6rem;
+    top: .6rem;
+    
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+}
+.project-section .project-list .project-article .project-subject{
+    position: absolute;
+    /* z-index: 100; */
+    right: 1.5rem;
+    font-size: var(--tiny);
+    top: .8rem;
+    background-color: #8e8d94;
+    border-radius: 15px;
+    padding: .2rem 1rem;
+    color: #2f2e2b;
+    font-weight: 700;
 }
 .project-section .project-list .project-article h2{
     margin: 1em 0;
@@ -437,6 +466,8 @@ main.home-main section .about-right p{
 .project-section .project-list .project-article .project-article-text{
     margin-left: 1em;
 }
+
+
 /* Footer --------------------- */
 footer{
     display: flex;
