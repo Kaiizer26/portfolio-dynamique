@@ -100,49 +100,22 @@
             <h2>Projets</h2>
         </section>
         <section class="project-list">
-            <a href="/contact">
+
+        <?php foreach ($projects as $project): ?>
+            <a href="<?= $project['project_path']?>">
                 <article class="project-article">
-                    <img src="images/cardmemory.jpg" alt="image du projet" class="project-image">
-                    <img src="images/php.svg" alt="tel" class="project-language">
-                    <h3 class="project-subject">SITE E-COMMERCE</h3>
+                    <img src="<?= $project['image_path']?>" alt="image du projet" class="project-image">
+                    <img src="<?= $project['language_image_path']?>" alt="tel" class="project-language">
+                    <h3 class="project-subject"><?= $project['subject']?></h3>
                     <section class="project-article-text">
-                        <h2>Focus sur Mel</h2>
-                        <p>ExtraPlay est un site PHP inspiré de Jeux.fr, offrant divers jeux en ligne avec des fonctionnalités telles que l'inscription, la gestion complète des avis (CRUD) et trois jeux opérationnels.</p>
+                        <h2><?= $project['name']?></h2>
+                        <p><?= $project['description']?></p>
                     </section>
                 </article>
             </a>
 
-            <article class="project-article">
-                <img src="images/cardmemory.jpg" alt="image du projet" class="project-image">
-                <img src="images/three.js.svg" alt="tel" class="project-language">
-                <h3 class="project-subject">SITE E-COMMERCE</h3>
-                <section class="project-article-text">
-                    <h2>Focus sur Mel</h2>
-                    <p>Faites évoluer les choses avec Mel, Reflet de lol. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est, mollitia ut. A sit magnam optio!</p>
-                </section>
-            </article>
-
-
-            <article class="project-article">
-                <img src="images/cardmemory.jpg" alt="image du projet" class="project-image">
-                <img src="images/php.svg" alt="tel" class="project-language">
-                <h3 class="project-subject">SITE E-COMMERCE</h3>
-                <section class="project-article-text">
-                    <h2>Focus sur Mel</h2>
-                    <p>Faites évoluer les choses avec Mel, Reflet de lol. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est, mollitia ut. A sit magnam optio!</p>
-                </section>
-            </article>
-
-
-            <article class="project-article">
-                <img src="images/cardmemory.jpg" alt="image du projet" class="project-image">
-                <img src="images/php.svg" alt="tel" class="project-language">
-                <h3 class="project-subject">SITE E-COMMERCE</h3>
-                <section class="project-article-text">
-                    <h2>Focus sur Mel</h2>
-                    <p>Faites évoluer les choses avec Mel, Reflet de lol. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est, mollitia ut. A sit magnam optio!</p>
-                </section>
-            </article>
+        <?php endforeach; ?>
+            
 
 
 
