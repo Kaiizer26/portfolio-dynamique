@@ -25,8 +25,8 @@ CREATE TABLE IF NOT EXISTS projects (
     project_path VARCHAR(255) NOT NULL
 );
 
-
-INSERT INTO projects (name, description, subject, language_image_path, image_path, project_path) VALUES ('ExtraPlay', 'ExtraPlay est un site PHP inspiré de Jeux.fr, offrant divers jeux en ligne avec des fonctionnalités telles que l''inscription, la gestion complète des avis (CRUD) et trois jeux opérationnels.', 'Site de jeux', 'images/php.svg', 'images/boardgames.jpg', '/extraplay')
+INSERT INTO projects (name, description, subject, language_image_path, image_path, project_path) VALUES ('ExtraPlay', 'ExtraPlay est un site PHP inspiré de Jeux.fr, offrant divers jeux en ligne avec des fonctionnalités telles que l''inscription, la gestion complète des avis (CRUD) et trois jeux opérationnels.', 'SITE DE JEUX', 'images/php.svg', 'images/boardgames.jpg', '/extraplay'), ('Pong 3D', 'Pong 3D est un jeu Pong en 3D réalisé en Three.js', 'JEU', 'images/Three.js.svg', 'images/pong3d.png', '/pong-3d'), ('Garage V. Parrot', 'Garage V. Parrot est un site concessionnaire vitrine… réalisé en Symfony', 'SITE VITRINE', 'images/symfony.svg', 'images/garagevparrot.png', '/garage-v-parrot' ), ('Lotus', 'Lotus est un site inspiré du jeu Motus réalisé en Alpine.js', 'JEU', 'images/Alpine.js.svg', 'images/lotus.png', '/lotus' ),
+('SneakPeak', 'SneakPeak est un site vitrine e-commerce de sneakers.', 'SITE E-COMMERCE', 'images/html.svg', 'images/sneakpeak.jpg', '/sneakpeak'), ('Orange', 'Orange est une refonte visuelle et ergonomique du site actuel d’Orange ayant pour but d’améliorer l’expérience UI/UX.', 'REFONTE VISUELLE', 'images/html.svg', 'images/orange.jpg', '/orange')
 ON CONFLICT (name) DO NOTHING;
 INSERT INTO technologies (name, level, image_path) 
 VALUES

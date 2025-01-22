@@ -431,6 +431,7 @@ main.home-main .margin-top-bottom-section{
     width: 330px;
     height: 190px;
     border-radius: 10px;
+    object-fit: cover;
 }
 .project-section .project-list .project-article img.project-language{
     position: absolute;
