@@ -428,7 +428,8 @@ main.home-main .margin-top-bottom-section{
 }
 
 .project-section .project-list .project-article img.project-image{
-    width: 330px;
+    /* width: 330px; */
+    width: 90%;
     height: 190px;
     border-radius: 10px;
     object-fit: cover;
@@ -446,7 +447,8 @@ main.home-main .margin-top-bottom-section{
 .project-section .project-list .project-article .project-subject{
     position: absolute;
     /* z-index: 100; */
-    right: 1.5rem;
+    /* right: 1.5rem; */
+    right: 12%;
     font-size: var(--tiny);
     top: .8rem;
     background-color: #8e8d94;

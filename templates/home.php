@@ -10,13 +10,13 @@
                     <h2>Etudiant à l'EFREI en Développement Web & Application</h2>
                 </li>
                 <li>
-                    <h2>Recherche un stage en tant que Développeur Web</h2>
+                    <h2>Recherche une alternance/stage en tant que Développeur Web</h2>
                 </li>
                 <li>
-                    <h2>Recherche un stage en tant que Développeur de Jeu</h2>
+                    <h2>Recherche une alternance/stage en tant que Développeur de Jeu</h2>
                 </li>
                 <li>
-                    <h2>Recherche un stage en tant que Designer UX/UI</h2>
+                    <h2>Recherche une alternance/stage en tant que Designer UX/UI</h2>
                 </li>
 
             </ul>
